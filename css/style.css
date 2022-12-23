@@ -2,3 +2,59 @@
     padding: 0;
     margin: 0;
 }
+
+body{
+    font-family: Arial;
+}
+
+.navBar{
+    width: 100%;
+    
+    /* background-color: rgb(238, 203, 161); */
+
+}
+
+.navLeft{
+    margin-left: 10px;
+    color: #a085c8;
+}
+
+.navLeft img{
+    width: 15%;
+    
+}
+
+.navRight{
+    background-color: #563D7C;
+    display:flex;
+    width: 100%;
+    justify-content: end;
+    border-bottom: 3px solid greenyellow;
+}
+
+
+.navRight a li{
+        list-style-type: none;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+
+}
+
+
+.navRight a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    
+}
+
+.navRight a:hover{
+    background-color: #a085c8;
+    transition-delay: 0.1s;
+    text-decoration: underline;
+}
+
